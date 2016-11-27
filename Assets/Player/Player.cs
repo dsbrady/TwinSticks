@@ -19,7 +19,7 @@ public class Player : MonoBehaviour {
 		} else {
 			tryingToGrab = false;
 			isGrabbing = false;
-		}
+		} 
 	}
 
 	void OnCollisionEnter (Collision collision) {
